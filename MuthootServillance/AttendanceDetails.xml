@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="5" name="test suite" annotations="JDK" parallel="tests">
+
+
+	<test name="AttendanceDetailsResult">
+		<groups>
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.cogniphi.MuthootServillance.TestSuite.AttendanceSuite" />
+		</classes>
+
+	</test>
+</suite>
