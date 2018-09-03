@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.TestSuites.NewTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.TestSuites.NewTest">
+        <methods>
+          <include name="TC_001_HomePage_verification"/>
+          <include name="TC_002_verify_Schedule_Uploading"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="loadlog4j"/>
+          <include name="TC_003_verifyCheckin_Checkout"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.TestSuites.NewTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sanity suite]">
+  <test name="sanity result">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.TestSuites.NewTest"/>
+    </classes>
+  </test> <!-- sanity result -->
+  <test name="sanity result(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.TestSuites.NewTest">
+        <methods>
+          <include name="TC_002_verify_Schedule_Uploading"/>
+        </methods>
+      </class> <!-- com.TestSuites.NewTest -->
+    </classes>
+  </test> <!-- sanity result(failed) -->
+</suite> <!-- Failed suite [sanity suite] -->

@@ -1,0 +1,12 @@
+<suite name="sanity suite">
+	<test name="sanity result">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.TestSuites.NewTest" />
+		</classes>
+	</test>
+</suite>
